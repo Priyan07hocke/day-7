@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Booking UI</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card search">
+      <h2>Select your destination</h2>
+      <input type="text" placeholder="From" />
+      <input type="text" placeholder="To" />
+
+      <div class="date-section">
+        <div class="today">
+          <p>Today</p>
+          <h3>28</h3>
+          <span>Dec, 2016</span>
+        </div>
+        <div class="calendar">
+          <p>December 2016</p>
+          <!-- You can replace this with a real calendar plugin -->
+        </div>
+      </div>
+
+      <div class="seats">
+        <label>Seats</label>
+        <div class="seat-options">
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class="active">4</button>
+          <button>5</button>
+          <button>6</button>
+        </div>
+      </div>
+       <br>
+      <button class="proceed">Proceed</button>
+    </div>
+
+    <div class="card details">
+      <h2>Travel Detail</h2>
+      <div class="route">
+        <div>CHE<br><small>CHEENAI</small></div><br>
+        <div class="icon">🚌</div><br>
+        <div>PNY<br><small>Pondicherry</small></div>
+      </div>
+      <p class="date">29 Dec 2016</p>
+      <div class="seats-info">Seats: <strong>10</strong></div>
+
+      <div class="bus-option">
+        <div class="info">
+          <p><strong>YRL</strong></p>
+          <p>11:00 PM - 7:00 AM</p>
+          <p>Sleeper | AC</p>
+          <p>10 Available Seats</p>
+        </div>
+        <div class="price">INR 1000</div>
+      </div>
+      <button class="book">Book Now</button>
+    </div>
+  </div>
+</body>
+</html>
